@@ -1,0 +1,19 @@
+t1 {
+	text-indent: 50px;
+}
+
+t2 {
+	text-indent: 100px;
+}
+
+t3 {
+	text-indent: 150px;
+}
+
+img {
+	height:40px;
+	vertical-align: middle;
+	image-rendering: crisp-edges;
+	padding-right: 20px;
+	/* filter: drop-shadow(0px 0px 5px #000000) */
+}

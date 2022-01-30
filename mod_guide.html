@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Bookshelf</title>
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+	<header>
+		<span id='nav-history'>
+			<a href=home_page.html>Home</a>
+			<span id='nav-history-arrow'>></span>
+			<a href=minecraft.html>Minecraft</a>
+			<span id='nav-history-arrow'>></span>
+			How to install mods (WIP)
+		</span>
+		<span id='nav-title'>Bookshelf</span>
+		<span id='nav-author'>Made by Bookstore</span>
+	</header>
+
+	<h3>First thing to know</h3>
+	<div>
+		So, you want to get mods? Cool! First thing to know is that mods are typically installed with either Forge or
+		Fabric. You can't use both, and mods are typically only made for one. From my experience Fabric has more
+		lightweight, often client-side mods (but not necessarily), whlist Forge is home to less vanilla, more custom
+		stuff. Depending on what kind of setup you're going for, you might use either, but for the purposes of this
+		tutorial I'll be sticking with Fabric.
+
+	</div>
+	<div>
+		<h3>How to install mods with Fabric</h3>
+		<div>First, you need to get the actual Fabric Loader;</div>
+		<ol>
+			<li>
+				Go to the website <a href='https://fabricmc.net' target='_blank' rel='noopener noreferrer'>fabricmc.net</a>.<br>
+			</li>
+			<li>
+				Right under "installation", there's a line that reads "To install Fabric, you need the Fabric Loader, which you can download here" Click on the button behind "here".
+			</li>
+		</ol>
+		<div class='list-non-item'>If you're using Mojang's official launcher, follow these steps below. If you're using a custom launcher, like MultiMC, follow the instructions for your respective launcher. You might find these on the current Fabric Loader download page, under "Other installation options".</div>
+		<ol start=3>
+			<li>
+				There're two main options of interest, "Download installer (Universal/.JAR)" and "Download for Windows". If you have Java installed, you can download the universal .jar. If you for some reason don't, and you happen to be using Windows, the Windows installer should help you out. If you don't have Java, and aren't using Windows, um... have you considered getting Java? I know the website looks like it was made at the dawn of internet, <i>proably was</i>, but I'm 99% sure it's fine.
+			</li>
+			<li>
+				You should now have some sort of installer, double-click on it to run it.<br>
+				A window should pop up, select the Minecraft version you want (probably the latest one) and the loader version you want (why would you want an older version?),<br>
+				confirm that the install location is indeed your Minecraft folder (I'm 99.99% sure it is though),<br>
+				hit "Install".
+			</li>
+		</ol>
+		<div>Now that you have the Fabric Loader installed, you're probably asking "Alright, but how do I use mods?" Well, it's really quite simple. First up, know that the Fabric Loader will look for a folder called "mods". If it finds it, it'll load all of the mods inside of it. Now, there're two ways to make this folder: Option 1: Make a new folder titled "mods". Option 2: Launch this minecraft and immediately close it (the loader will automatically create any folders it needs). Whichever method you choose, you'll get the same result, that being a folder titled "mods". Which means, you're done! If you want to install mods, simply download the .jar file, and move it inside of this folder. The Fabric Loader will load them, and you'll see them in-game.</div>
+
+	</div>
+
+</body>
